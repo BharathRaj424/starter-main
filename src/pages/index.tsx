@@ -25,7 +25,7 @@ export default function Home(): JSX.Element {
               <p>Loading....</p>
             ) : (
               <>
-                <p> {email.length > 0 ? 'Logged in' : 'Not Logged In into the system'}</p>
+                <p> {email.length > 0 ? 'Logged in' : 'Not Logged In'}</p>
                 <p>{email.length > 0 && email}</p>
               </>
             )}
